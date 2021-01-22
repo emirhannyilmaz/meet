@@ -1,0 +1,133 @@
+.explore {
+    flex: 0.75;
+    height: 100vh;
+    background-color: white;
+}
+
+.match {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.match-button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 25px;
+    background-color: #0099FF;
+}
+
+.match-button:hover {
+    background-color: #008be7;
+    cursor: pointer;
+}
+
+.text {
+    color: #525252;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.chat__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.chat__header__left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.chat__header__left > h3 {
+    margin-left: 10px;
+}
+
+.chat__header__right {
+    display: flex;
+}
+
+.chat__body {
+    flex: 1;
+    padding: 30px;
+    overflow: auto;
+}
+
+.chat__message {
+    position: relative;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #EDEDED;
+    border-radius: 30px;
+    width: fit-content;
+    max-width: 300px;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+.own {
+    margin-left: auto;
+    color: white;
+    background-color: #0099FF;
+}
+
+.chat__footer {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-top: 1px solid lightgray;
+}
+
+.chat__footer > form {
+    flex: 1;
+    display: flex;
+}
+
+.message-input {
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #F2F3F5;
+    font-size: 16px;
+}
+
+.send-message {
+    background-color: #0099FF;
+    margin-left: 10px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.end-chat {
+    background-color: #ff0000;
+    margin-left: 10px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+}

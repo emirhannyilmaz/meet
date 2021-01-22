@@ -1,0 +1,42 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    height: 100vh;
+    background-color: rgb(250, 250, 250);
+}
+
+.sidebar__top {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.sidebar__top > h3 {
+    margin-left: 10px;
+}
+
+.sidebar__buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar__button {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.current-tab {
+    background-color: #dadbdd;
+}
+
+.sidebar__button > h3 {
+    color: #525252;
+}
+
+.sidebar__button:hover {
+    cursor: pointer;
+    background-color: #dadbdd;
+    padding: 10px;
+}
